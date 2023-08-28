@@ -92,6 +92,7 @@ transition: background 0.5s;
   max-width: 1080px;
   margin: auto;
   padding: 0 25px;
+  overflow: hidden;
  }
  .col-4{
   flex-basis: 25%;
@@ -179,4 +180,17 @@ small{
   font-weight: 600;
   color: #555;
   font-size: 16px;
+}
+.small-container .row{
+  overflow: hidden;
+}
+.brands{
+  margin: 100px auto;
+}
+.col-5{
+  width: 160px;
+}
+.col-5 img{
+  width: 100%;
+  cursor: pointer;
 }
